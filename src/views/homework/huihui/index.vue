@@ -1,6 +1,6 @@
 <template>
   <d2-container :filename="filename">
-    <template slot="header">慧慧</template>
+    <template slot="header">慧慧111</template>
     <div class="inner">
       <ve-histogram :data="chartData" :settings="chartSettings" v-bind="pubSetting"></ve-histogram>
     </div>
